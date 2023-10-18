@@ -87,6 +87,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo-studio {
@@ -97,12 +99,10 @@ address {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
-.header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+.header-menu-item {}
 
 .header-menu-link {
     color: #2e2f42;
@@ -191,12 +191,12 @@ address {
 
 .features {
     background: #fff;
-    padding: 120px 0;
-}
+    }
 
 .features-list {
     display: flex;
     gap: 24px; 
+    padding: 120px 0;
 }
 
 .features-item {
@@ -224,6 +224,7 @@ address {
 .team {
     background-color: #f4f4fd;
     padding: 120px 0px;
+    
 }
 
 .team-title {
@@ -241,6 +242,7 @@ address {
 .team-list {
     display: flex;
     gap: 24px;
+    
 }
 
 .team-item {
@@ -271,7 +273,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    
 }
 /* ======================================= */
 /* ================= Portfolio ================ */
@@ -279,6 +281,10 @@ address {
 .portfolio {
     padding: 120px 0;
 }
+.container-portfolio {
+        
+
+    }
 
 .portfolio-title {
     color: #2e2f42;
@@ -289,6 +295,7 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    
 }
 
 .portfolio-list {
@@ -298,6 +305,9 @@ address {
     row-gap: 48px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    
+    
+    
 }
 
 .portfolio-item {}
