@@ -87,8 +87,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header-logo-studio {
@@ -99,10 +98,11 @@ address {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
     color: #2e2f42;
@@ -142,15 +142,19 @@ address {
     color: #404BBF;
 }
 /* ================= Solution ================ */
-.main-page {}
+.main-page {
+    
+}
 
 .solution {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 
 .solution-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+   
 }
 
 .solution-title {
