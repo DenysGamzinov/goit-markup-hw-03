@@ -76,6 +76,7 @@ address {
 .header-navigation {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-logo {
@@ -98,10 +99,11 @@ address {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-item {
-    padding: 24px 0;
+    
 }
 
 .header-menu-link {
@@ -125,6 +127,7 @@ address {
 .address-menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-menu-item {}
@@ -227,7 +230,7 @@ address {
 
 .team {
     background-color: #f4f4fd;
-    padding: 120px 0px;
+    
     
 }
 
@@ -241,12 +244,13 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    
+    padding: 120px 0px;
 }
 
 .team-item {
